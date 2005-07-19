@@ -3,11 +3,12 @@ package Pod::WSDL::Type;
 # TODO: Documented and written tests for Pod::WSDL::Type
 
 use strict;
+use warnings;
 use Pod::WSDL::Attr;
 use Pod::WSDL::Utils qw(:writexml :namespaces :types);
 use Pod::WSDL::AUTOLOAD;
 
-our $VERSION = 0.01;
+our $VERSION = "0.02";
 our @ISA = qw/Pod::WSDL::AUTOLOAD/;
 
 our %FORBIDDEN_METHODS = (
